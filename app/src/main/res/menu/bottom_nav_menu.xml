@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+        <item
+            android:id="@+id/na_home"
+            android:title="@string/refine"
+            android:icon="@drawable/baseline_checklist_24"
+            />
+
+    <item
+            android:id="@+id/nav_home"
+            android:title="@string/explore"
+        android:icon="@drawable/baseline_remove_red_eye_24"
+            />
+
+        <item
+            android:id="@+id/nav_search"
+            android:title="@string/network"
+            android:icon="@drawable/network"/>
+
+        <item
+            android:id="@+id/nav_favorites"
+            android:title="Chat"
+            android:icon="@drawable/baseline_chat_24"/>
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Contacts"
+            android:icon="@drawable/baseline_contacts_24"/>
+    </menu>
+
+
